@@ -1,13 +1,17 @@
-body{
-    background-color: white;
-    color: black;
-    margin: 0;
-    padding: 0;
-}
-
 h1{
     text-align: center;
     margin-top: 50px;
     font-size: 3rem;
-    
+    color: red;
 }
+
+
+
+
+body{
+    background-color: rgb(19, 31, 47);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
