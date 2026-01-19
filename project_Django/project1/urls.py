@@ -4,5 +4,5 @@ from . import views
 #localhost:8000/project1/order
 urlpatterns = [
     path('', views.all_project, name='all_project'),
-    
+    path('<int:project_id>/', views.project_detail, name='project_detail'),
 ]
